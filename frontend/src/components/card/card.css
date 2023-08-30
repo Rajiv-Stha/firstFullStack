@@ -1,0 +1,26 @@
+.card{
+    /* background-color: rgb(151, 147, 147); */
+    padding: 10px;
+    border-radius: 6px;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    box-shadow: rgba(154, 113, 192, 0.364) 0px 2px 8px 0px;
+}
+.info{
+    height: 90%;
+}
+.title{
+    letter-spacing: 1px;
+    color: rgb(144, 61, 221);
+}
+.card button{
+    padding: 5px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    cursor: pointer;
+    background-color: rgb(144, 61, 221);;
+    color: rgb(241, 241, 241);
+}

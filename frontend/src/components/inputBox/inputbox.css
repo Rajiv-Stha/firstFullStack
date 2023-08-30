@@ -1,0 +1,26 @@
+.inputBox{
+    background-color: rgb(207, 207, 207);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 1rem;
+}
+.inputBox input, .inputBox button{
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+.inputBox input{
+    width: 40%;
+    padding: 10px ;
+   
+}
+.inputBox button{
+    padding: 8px 1rem;
+    width: 10%;
+    cursor: pointer;
+    background-color: rgb(144, 61, 221);
+    color: whitesmoke;
+}
